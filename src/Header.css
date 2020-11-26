@@ -69,8 +69,19 @@
   margin-right: 10px;
   position: absolute;
   top: 10px;
+  color: rgb(240, 136, 4);
 }
 
 .header__panier {
   justify-content: flex-end;
+}
+
+.header__optionBasket__container {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* cible les deux éléments React Link */
+.header__optionBasket__container > a {
+  text-decoration: none;
 }
